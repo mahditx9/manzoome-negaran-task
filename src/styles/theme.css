@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .h1-bold {
+    @apply text-[46px] font-bold leading-[64px] tracking-[1px];
+  }
+  .h2-bold {
+    @apply text-[46px] font-bold leading-[64px] tracking-[1px];
+  }
+  .h3-bold {
+    @apply text-[40px] font-bold leading-[48px] tracking-[1px];
+  }
+  .h4-bold {
+    @apply text-[20px] font-bold leading-[23.44px];
+  }
+  .body-normal {
+    @apply text-[14px] font-normal leading-6 tracking-[0.28px];
+  }
+  .regular-12 {
+    @apply text-[12px] font-normal leading-[18px];
+  }
+  .body-bold {
+    @apply text-[14px] font-semibold leading-6;
+  }
+  .paragraph-normal {
+    @apply text-[16px] font-normal leading-[36px] tracking-[0.18px];
+  }
+  .SideMenuCore {
+    @apply text-[12px] leading-[20px] font-bold;
+  }
+  .TitleSideMenu {
+    @apply text-[18px] leading-[20px] font-bold;
+  }
+  .MenuItem {
+    @apply text-[13px] leading-6 font-normal tracking-[0.14px];
+  }
+  .small-normal {
+    @apply text-[13px] leading-6 font-normal tracking-[0.14px];
+  }
+  .bold-16 {
+    @apply text-[16px] leading-[30px] font-bold;
+  }
+
+  .faq-title {
+    @apply text-[20px] font-normal leading-8 tracking-[0.15px];
+  }
+
+  /* FLEX */
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+  .flex-start {
+    @apply flex items-center justify-start;
+  }
+  .flex-stretch {
+    @apply flex items-center justify-stretch;
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}

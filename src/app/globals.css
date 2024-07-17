@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("../styles/theme.css");
+
+* {
+  box-sizing: border-box;
+}
+.ogoStyle::after {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: -20px;
+  height: 25px;
+  width: 40px;
+  z-index: -10;
+  border-bottom-left-radius: 50px;
+  /* border-bottom-right-radius: 2px; */
+  background-color: #354150;
+}
+.ogoStyle::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  right: -20px;
+  height: 25px;
+  width: 40px;
+  z-index: -10;
+  border-bottom-right-radius: 50px;
+  /* border-bottom-right-radius: 2px; */
+  background-color: #354150;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+/*
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +64,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
